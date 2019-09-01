@@ -626,7 +626,7 @@ h1, h2, h3, h4, h5,
       left: 0;
       right: 0;
       bottom: 0;
-      background: #183661;
+      background: #DE3831;
       opacity: .9;
       z-index: 0; }
     .section-bg.style-1 > .container {
@@ -639,7 +639,9 @@ h1, h2, h3, h4, h5,
       color: #51be78;
       margin-bottom: 30px; }
     .section-bg.style-1 p {
-      color: #7697c6; }
+      /*color: #7697c6;*/ 
+    color:white;
+    }
 
 .news-updates {
   padding: 5rem 0; }
@@ -911,7 +913,7 @@ h1, h2, h3, h4, h5,
     -ms-transform: translatey(-100%);
     transform: translatey(-100%);
     padding: 10px 20px;
-    background: #183661;
+    background: #DE3831;
     color: #fff; }
   .course-1-item .course-1-content {
     padding: 20px 40px;
@@ -930,7 +932,7 @@ h1, h2, h3, h4, h5,
 
 .footer {
   padding: 4rem 0;
-  background: #183661;
+  background: #DE3831;
   font-size: 14px;
   color: #fff; }
   .footer .footer-heading {
@@ -955,7 +957,7 @@ h1, h2, h3, h4, h5,
   .ftco-subscribe-1:before {
     position: absolute;
     content: "";
-    background: #183661;
+    /* background: #DE3831; */
     opacity: .7;
     z-index: 1;
     top: 0;
