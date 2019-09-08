@@ -900,6 +900,7 @@ h1, h2, h3, h4, h5,
     position: relative; }
   .course-1-item .category {
     background: #636363;
+    text-align:center;
     padding: 20px; }
     .course-1-item .category h3 {
       color: #fff;
@@ -1093,6 +1094,16 @@ h1, h2, h3, h4, h5,
 .pd-9{
   padding-top: 9%;
 }
-.offering-justify p{
+.offering-justify,
+.justify-what-we-do,
+.justify-about-us,
+.justify-vision p{
   text-align: justify;
+}
+.offering-justify span{
+  text-align:left
+}
+
+.course-1-content .desc.mb-4{
+  min-height: 174px;
 }
