@@ -1093,3 +1093,6 @@ h1, h2, h3, h4, h5,
 .pd-9{
   padding-top: 9%;
 }
+.offering-justify p{
+  text-align: justify;
+}
