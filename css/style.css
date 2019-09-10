@@ -933,9 +933,13 @@ h1, h2, h3, h4, h5,
 
 .footer {
   padding: 4rem 0;
-  background: #ccc;
+  background: #636363;
   font-size: 14px;
   color: #fff; }
+
+  .footer a{
+    color: white;
+  }
   .footer .footer-heading {
     font-size: 16px;
     color: #fff;
