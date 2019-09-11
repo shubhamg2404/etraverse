@@ -45,7 +45,7 @@ function create(obj) {
 	}
 
 	if (settings.parent != undefined) {
-		console.warn($(settings.parent));
+		//console.warn($(settings.parent));
 		$(settings.parent).append(node);
 	}
 	return node;
