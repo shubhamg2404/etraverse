@@ -419,7 +419,7 @@ jQuery(document).ready(function ($) {
 				'class':'col-lg-$'.replace("$",numberOfColumns),
 				'parent':row
 			});
-			$(firstColumn).append('<p class="mb-4"><img src="images/white_logo.png" alt="image" class="img-fluid"></p>');
+			$(firstColumn).append('<p class="mb-4"><img src="images/Footerlogo.png" alt="image" class="img-fluid"></p>');
 			
 			create({
 				"node":"p",
@@ -472,7 +472,7 @@ jQuery(document).ready(function ($) {
 			var year = new Date().getFullYear();
 			var para = create({
 				'node':'p',
-				'html':'Copyright &copy; $year All rights reserved | Designed and Developed with <i class="icon-heart" aria-hidden="true"></i> by <a href="https://shubhamg2404.github.io/portfolio/" target="_blank">Shubham Gupta</a>'.replace("$year",year),
+				'html':'Copyright &copy; $year All rights reserved | Designed and Developed with <i class="icon-heart" aria-hidden="true"></i> &nbspby<a class="font-weight-bold" href="https://www.facebook.com/grafictale/"> Henny Shah</a> and <a class="font-weight-bold" href="https://shubhamg2404.github.io/portfolio/" target="_blank">Shubham Gupta</a>'.replace("$year",year),
 				"parent":copyright
 			})
 
