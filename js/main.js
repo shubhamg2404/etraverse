@@ -419,7 +419,7 @@ jQuery(document).ready(function ($) {
 				'class':'col-lg-$'.replace("$",numberOfColumns),
 				'parent':row
 			});
-			$(firstColumn).append('<p class="mb-4"><img src="images/logo.png" alt="image" class="img-fluid"></p>');
+			$(firstColumn).append('<p class="mb-4"><img src="images/white_logo.png" alt="image" class="img-fluid"></p>');
 			
 			create({
 				"node":"p",
