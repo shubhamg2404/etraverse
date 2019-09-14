@@ -472,7 +472,9 @@ jQuery(document).ready(function ($) {
 			var year = new Date().getFullYear();
 			var para = create({
 				'node':'p',
-				'html':'Copyright &copy; $year All rights reserved | Designed and Developed with <i class="icon-heart" aria-hidden="true"></i> &nbspby<a class="font-weight-bold" href="https://www.facebook.com/grafictale/"> Henny Shah</a> and <a class="font-weight-bold" href="https://shubhamg2404.github.io/portfolio/" target="_blank">Shubham Gupta</a>'.replace("$year",year),
+				'html':'Copyright &copy; $year All rights reserved | \
+						Designed and Developed with <i class="icon-heart" aria-hidden="true"></i>  by\
+						<a target="_blank" class="font-weight-bold" href="https://www.facebook.com/grafictale/"> Henny Shah</a> and <a class="font-weight-bold" href="https://shubhamg2404.github.io/portfolio/" target="_blank">Shubham Gupta</a>'.replace("$year",year),
 				"parent":copyright
 			})
 
