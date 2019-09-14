@@ -472,7 +472,7 @@ jQuery(document).ready(function ($) {
 			var year = new Date().getFullYear();
 			var para = create({
 				'node':'p',
-				'html':'Copyright &copy; $year All rights reserved | This template is made with <i class="icon-heart" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>'.replace("$year",year),
+				'html':'Copyright &copy; $year All rights reserved | Designed and Developed with <i class="icon-heart" aria-hidden="true"></i> by <a href="https://shubhamg2404.github.io/portfolio/" target="_blank">Shubham Gupta</a>'.replace("$year",year),
 				"parent":copyright
 			})
 
