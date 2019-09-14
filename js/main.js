@@ -404,14 +404,12 @@ jQuery(document).ready(function ($) {
 					"Library Management System":"offering_library_management.html"
 				},
 				"Milestones":{
-					"Africa Day- Vibrant Gujarat Global Submit 2019, India":"#",
-					"Women in IT Awards 2019, Singapore":"#",
-					"EduTech Africa 2019, Johannesburg, South Africa":"#"
+					"Africa Day- Vibrant Gujarat Global Submit 2019, India":"event_africa_day.html",
+					"Women in IT Awards 2019, Singapore":"event_wiit_awards.html",
+					"EduTech Africa 2019, Johannesburg, South Africa":"event_edutech_africa.html"
 				},
 				"Help Center":{
-					"Acedemic":"#",
-					"News":"#",
-					"Our Interns":"#"
+					"Contact Us":"contact.html"
 				}
 			}
 
