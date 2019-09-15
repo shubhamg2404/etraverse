@@ -565,8 +565,26 @@ h1, h2, h3, h4, h5,
   background-size: cover;
   position: relative; }
   .intro-section, .intro-section .container .row {
-    height: 100vh;
-    min-height: 900px; }
+    height: 43vh;
+    min-height: 208px; 
+    
+    
+
+  }
+  @media only screen and (min-width: 768px){
+    .intro-section, .intro-section .container .row{
+      height: 62vh;
+    min-height: 400px;
+    }
+    
+  }
+  @media only screen and (min-width: 1200px){
+    .intro-section, .intro-section .container .row{
+      height: 100vh;
+    min-height: 900px;
+    }
+    
+  }
   .intro-section:before {
     content: "";
     position: absolute;
