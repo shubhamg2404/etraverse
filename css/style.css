@@ -244,6 +244,11 @@ h1, h2, h3, h4, h5,
     font-size: 2rem; }
   .site-logo a {
     color: #000; }
+  @media only screen and (max-width: 600px) {
+    .site-logo {
+      width: 140px;
+    }
+  }
 
 .site-navbar {
   margin-bottom: 0px;
@@ -1115,6 +1120,11 @@ h1, h2, h3, h4, h5,
 
 .pd-9{
   padding-top: 9%;
+}
+@media only screen and (max-width: 600px) {
+  .pd-9{
+    padding-top: 31%;
+  }
 }
 .offering-justify,
 .justify-what-we-do,
