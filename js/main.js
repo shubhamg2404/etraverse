@@ -409,7 +409,8 @@ jQuery(document).ready(function ($) {
 					"EduTech Africa 2019, Johannesburg, South Africa":"event_edutech_africa.html"
 				},
 				"Help Center":{
-					"Contact Us":"contact.html"
+					"Contact Us":"contact.html",
+					"info@etraverse.com":""
 				}
 			}
 
@@ -450,7 +451,12 @@ jQuery(document).ready(function ($) {
 					"parent":column
 				});
 				for(var subheading in columns[heading]){
-					$(orderedList).append('<li><a href="#">$</a></li>'.replace("#",columns[heading][subheading]).replace("$",subheading));
+					if(columns[heading][subheading]){
+						$(orderedList).append('<li><a href="#">$</a></li>'.replace("#",columns[heading][subheading]).replace("$",subheading));
+					}else{
+						$(orderedList).append('<li>$</li>'.replace("$",subheading));
+					}
+					
 				}
 			}
 
