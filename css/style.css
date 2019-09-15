@@ -1125,6 +1125,9 @@ h1, h2, h3, h4, h5,
   .pd-9{
     padding-top: 23%;
   }
+  #milestones .mb-4{
+    margin-bottom: 4.5rem!important
+  }
 }
 .offering-justify,
 .justify-what-we-do,
