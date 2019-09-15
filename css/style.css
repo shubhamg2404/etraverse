@@ -1121,12 +1121,16 @@ h1, h2, h3, h4, h5,
 .pd-9{
   padding-top: 9%;
 }
+/* Form Mobile Devices only*/
 @media only screen and (max-width: 600px) {
   .pd-9{
     padding-top: 23%;
   }
   #milestones .mb-4{
     margin-bottom: 4.5rem!important
+  }
+  .owl-next, .owl-prev{
+    display: none;
   }
 }
 .offering-justify,
