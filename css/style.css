@@ -1147,3 +1147,31 @@ h1, h2, h3, h4, h5,
 .course-1-content .desc.mb-4{
   min-height: 149px;
 }
+
+.founder-img{
+  background: url(../images/websitepic_shikha.png);
+  height: 99px;
+  width: 100px;
+  background-size: 114%;
+  border-radius: 165px;
+  background-position-x: -7px;
+  background-position-y: -9px;
+}
+.founder-name{
+  color:white;
+  font-weight: 600;
+  text-align: center;
+  font-size: 12px;
+
+}
+
+.section-title {
+  color: #000;
+  font-size: 24px;
+}
+  .section-title span {
+    display: inline-block; }
+  .section-title.style-2 {
+    color: #fff; }
+    .section-title.style-2 span {
+      border-color: #636363; }

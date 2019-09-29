@@ -410,7 +410,8 @@ jQuery(document).ready(function ($) {
 				},
 				"Help Center":{
 					"Contact Us":"contact.html",
-					"info@etraverse.com":""
+					"info@etraverse.com":"",
+					"Skype: info@eTraverse":""
 				}
 			}
 
